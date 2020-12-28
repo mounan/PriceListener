@@ -1,3 +1,4 @@
+做一个网络爬虫不断爬取メルカリ上用条件检索得到的所有PS5商品，再按价格排序，通过字符串解析获取最低价位的几个商品，将他们的价格和链接保存到json文件里实时刷新并显示出来。
 
 本次使用的工具🔧
 
@@ -12,9 +13,6 @@
 
 电脑里还没有python3.7以上环境的同学，可以点击[anaconda官网](https://www.anaconda.com/products/individual#Downloads)，找到合适自己系统的版本，按照指示下载安装就可以了。
 
-安装好之后打开terminal或者cmd，输入python，回车，出现类似下面的信息则说明安装成功。
-
-![スクリーンショット 2020-12-28 15.18.06](/Users/zmn/Library/Application Support/typora-user-images/スクリーンショット 2020-12-28 15.18.06.png)
 
 
 
@@ -36,21 +34,7 @@
 
 做一个网络爬虫不断爬取メルカリ上用条件检索得到的所有PS5商品，再按价格排序，通过字符串解析获取最低价位的几个商品，将他们的价格和链接保存到json文件里实时刷新并显示出来。
 
-<img src="/Users/zmn/Library/Application Support/typora-user-images/スクリーンショット 2020-12-26 2.09.55.png" alt="スクリーンショット 2020-12-26 2.09.55" style="zoom:50%;" />
 
-​							当前最低价位的4个PS5的价格和链接
-
-
-
-### 完整代码
-
-先上完整代码截图
-
-![スクリーンショット 2020-12-28 16.26.36](/Users/zmn/Library/Application Support/typora-user-images/スクリーンショット 2020-12-28 16.26.36.png)
-
-![スクリーンショット 2020-12-28 16.27.00](/Users/zmn/Library/Application Support/typora-user-images/スクリーンショット 2020-12-28 16.27.00.png)
-
-代码文件我放在了github里，有兴趣的小伙伴可以clone一下，有关git的用法以后我也会单独写一篇文章介绍。
 
 代码中有些地方是可以自己调整的：
 
